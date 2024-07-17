@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+      <!-- Icons -->
+      <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+      
+      
+      <!-- CSS -->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <!-- jQuery Owl Carousel -->
+      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+      <!-- Tailwind CDN -->
+      <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+      <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+      <!-- Favicon -->
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.ico">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.ico">
+      
+      <!-- Title -->
+      <title>RoomieLink</title>
+   </head>
+   <body>
+
+      <!-- Navigation Bar -->
+      <header class="header" id="header" style="font-family: 'Inter'; background: rgb(255, 255, 255);">
+         <nav class="nav container">
+            <b><a href="index.html" class="nav__logo" style="font-family: 'Product Sans Bold'; letter-spacing: -.5px; font-size: 1.5rem;"> RoomieLink </a></b>
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="index.html" class="nav__link font-medium leading-6 text-black-600 transition duration-150 ease-out hover:text-gray-600">Home</a> 
+                  </li>
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link font-medium leading-6 text-black-600 transition duration-150 ease-out hover:text-gray-600">About</a> 
+                  </li>
+                  <li class="nav__item">
+                     <a href="pages\listroom.php" class="nav__link font-medium leading-6 text-black-600 transition duration-150 ease-out hover:text-gray-600">Add Rooms</a>
+                  </li>
+                 
+                  <!-- <li class="nav__item">
+                     <a href="pages/covid.html" class="nav__link font-medium leading-6 text-black-600 transition duration-150 ease-out hover:text-gray-600">COVID</a>
+                  </li> -->
+                  <li class="nav__item">
+                     <a href="pages/findroom.php" class="nav__link font-medium leading-6 text-black-600 transition duration-150 ease-out hover:text-gray-600">Find a Room</a>
+                  </li>
+                  <!-- <li class="nav__item">
+                     <a href="pages/membership.html" class="nav__link font-medium leading-6 text-black-600 transition duration-150 ease-out hover:text-gray-600">Membership</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="pages/dining.html" class="nav__link font-medium leading-6 text-black-600 transition duration-150 ease-out hover:text-gray-600">Dining</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="pages/news.html" class="nav__link font-medium leading-6 text-black-600 transition duration-150 ease-out hover:text-gray-600">News</a>
+                  </li> -->
+               </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+               <i class='bx bx-grid-alt'></i>
+            </div>
+            <a href="pages/login.php" class="button button__header focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Sign in</a>
+         </nav>
+      </header>
+      
+      <!-- Banner Section -->
+      <section class="banner">
+         <div class="content">
+            <div class="title">RoomieLink</div>
+            <div class="top-subtitle subtitle">Student Connections And Accommodation</div>
+         </div>
+
+               <br>
+     
+      <section class="text-gray-600 body-font" id="about" style="font-family: 'Inter'; margin-top: 12%;">
+         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center" style="margin: auto; width: 70%;">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+               <img class="object-cover object-center rounded" alt="hero" src="teamwork-people-with-puzzle-pieces_24877-54950.avif">
+            </div>
+            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+               <h1 class="sec-head">About Us
+               </h1>
+               <p class="mb-8 leading-relaxed" style="width: auto;">Welcome to RoomieLink, your go-to platform for finding the perfect roommate or your dream living space! At RoomieLink, we're committed to simplifying the process of connecting roommates and room providers. Whether you're a student searching for the ideal room near your university or a homeowner looking to fill an available space, RoomieLink is here to bridge the gap.</p>
+               <div class="flex justify-center">
+                  <span class="inline-flex rounded-md shadow-sm">
+                  <a class="button button__header focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Know More</a>
+                  </span>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Hotels Section -->
+      <section class="hotels" id="hotels">
+         <h1 class="sec-head" id="hotels-head">Our Listings</h1>
+      </section>
+      <div class="wrapper">
+         <div class="carousel owl-carousel">
+            <div class="card card-1">
+            </div>
+            <div class="card card-2">
+            </div>
+            <div class="card card-3">
+            </div>
+            <div class="card card-4">
+            </div>
+            <div class="card card-5">
+            </div>
+            <div class="card card-6">
+            </div>
+            <div class="card card-7">
+            </div>
+            <div class="card card-8">
+            </div>
+         </div>
+      </div>
+
+      <!-- Vision Section -->
+      <div class='vision'>
+         <div class='row'>
+            <div class='column'>
+               <div class='vision-column'>
+                  <h1 class="sec-head">Our Vision</h1>
+                  <p>RoomieLink was founded by a passionate team of individuals who understand the challenges of finding the right living situation. We're dedicated to continually improving and expanding our platform to meet your evolving needs.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Contact Section -->
+      <section class=" text-gray-100 px-8 py-12" style="font-family: Inter;">
+         <div class="text-center w-full">
+         </div>
+         <div
+            class="max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg">
+            <div class="flex flex-col justify-between">
+               <div>
+                  <h2 class="sec-head">Contact Us</h2>
+                  <img src="assets/img/contact.svg" style="margin-top: 50px; padding-right: 50px;" alt="">
+               </div>
+               
+            </div>
+            <div class="">
+               <div>
+                  <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
+                  <input class="w-full bg-gray-200 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                     type="text" placeholder="">
+               </div>
+               <div class="mt-8">
+                  <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
+                  <input class="w-full bg-gray-200 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                     type="text">
+               </div>
+               <div class="mt-8">
+                  <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
+                  <textarea
+                     class="w-full h-32 bg-gray-200 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+               </div>
+               <div class="mt-8">
+                  <button
+                     class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+                  Send Message
+                  </button>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Footer Section -->
+      <div class="footer-dark" style="font-family: Inter;">
+         <footer>
+            <div class="bscontainer">
+               <div class="bsrow">
+                  <div class="bscol-md-2 item">
+                     <h3>Pages</h3>
+                     <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/map.html">RoomieLink</a></li> 
+                        <li><a href="pages/login.html">Login</a></li>
+                        <!-- <li><a href="pages/book.html">Book Hotel</a></li> -->
+                     </ul>
+                  </div>
+                  <div class="bscol-md-2 item" style="width: 50px;">
+                     <h3>Know More</h3>
+                     <ul>
+                        <li><a href="pages/membership.html">Membership</a></li>
+                        <li><a href="pages/team.html">Our Team</a></li>
+                        <!-- <li><a href="pages/news.html">News</a></li> -->
+                     </ul>
+                  </div>
+                  <div class="bscol-md-2 item">
+                     <h3</h3>
+                     <ul>
+                        <!-- <li><a href="#">Privacy Policy</a></li> -->
+                        <!-- <li><a href="#">Terms of Service</a></li> -->
+                     </ul>
+                  </div>
+                  <div class="bscol-md-6 item text">
+                     <h3>RoomieLink</h3>
+                     <!-- <p>Over the last 25 years, the Glory Hotels organisation has been known for dependably providing the best Indian hospitality experience with more than 50 hotels and resorts worldwide.</p> -->
+                     <p>Join us on a journey to stay connected, stay informed, and stay ahead. Explore our services today and experience the power of modern connectivity with Romielink</p>
+                  </div>
+                  <div class="social_links">
+                     <a href="https://www.instagram.com/">
+                     <span class="fa-stack fa-lg ig combo">
+                        <i class="fa fa-circle fa-stack-2x circle"></i>
+                        <i class="fa fa-instagram fa-stack-1x fa-inverse icon"></i>
+                     </span>
+                     </a>
+                     <a href="https://www.facebook.com/">
+                     <span class="fa-stack fa-lg fb combo">
+                        <i class="fa fa-circle fa-stack-2x circle"></i>
+                        <i class="fa fa-facebook fa-stack-1x fa-inverse icon"></i>
+                     </span>
+                     </a>
+                     <a href="https://www.youtube.com/">
+                     <span class="fa-stack fa-lg yt combo">
+                        <i class="fa fa-circle fa-stack-2x circle"></i>
+                        <i class="fa fa-youtube-play fa-stack-1x fa-inverse icon"></i>
+                     </span>
+                     </a>
+                     <a href="https://www.twitter.com/">
+                     <span class="fa-stack fa-lg tw combo">
+                        <i class="fa fa-circle fa-stack-2x circle"></i>
+                        <i class="fa fa-twitter fa-stack-1x fa-inverse icon"></i>
+                     </span>
+                     </a>
+                     <a href="https://codepen.io">
+                     <span class="fa-stack fa-lg gt combo">
+                        <i class="fa fa-circle fa-stack-2x circle"></i>
+                        <i class="fa fa-codepen fa-stack-1x fa-inverse icon"></i>
+                     </span>
+                     </a>
+                     <a href="https://www.linkedin.com/">
+                     <span class="fa-stack fa-lg tw combo">
+                        <i class="fa fa-circle fa-stack-2x circle"></i>
+                        <i class="fa fa-linkedin fa-stack-1x fa-inverse icon"></i>
+                     </span>
+                     </a>
+                  </div>
+               </div>
+               <p class="copyright">The RoomieLink © 2023</p>
+            </div>
+         </footer>
+      </div>
+
+      <!-- Scroll Up Button -->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+      </a>
+
+      <!-- Owl Carousel JS -->
+      <script>
+         $(".carousel").owlCarousel({
+           margin: 20,
+           loop: true,
+           autoplay: true,
+           autoplayTimeout: 2000,
+           autoplayHoverPause: true,
+           responsive: {
+             0:{
+               items:1,
+               nav: false
+             },
+             600:{
+               items:2,
+               nav: false
+             },
+             1000:{
+               items:3,
+               nav: false
+             }
+           }
+         });
+      </script>
+
+      <!-- JS -->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
